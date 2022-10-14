@@ -1,12 +1,7 @@
-import Home from "./views/Home";
+import Routes from "./routes";
 
 function App() {
-    return (
-        <>
-            <h1>Projeto Nov</h1>
-            <Home />
-        </>
-    );
+    return <Routes />;
 }
 
 export default App;
