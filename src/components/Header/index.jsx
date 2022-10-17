@@ -5,10 +5,12 @@ function Header() {
     return (
         <nav>
             <S.LinkRedirect to={"/"}>
-                <p>00 Home</p>
-                <p>01 Destination</p>
-                <p>02 Crew</p>
-                <p>03 Technology</p>
+                <ul>
+                    <li>00 Home</li>
+                    <li>01 Destination</li>
+                    <li>02 Crew</li>
+                    <li>03 Technology</li>
+                </ul>
             </S.LinkRedirect>
         </nav>
     );
