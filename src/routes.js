@@ -1,15 +1,15 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-/* import { Home} from "./views"; */
+import { Home } from "./views";
 import { Header } from "./components";
 
 const Routes = () => {
     return (
         <BrowserRouter>
             <Header />
-            {/*             <Switch>
+            <Switch>
                 <Route exact path="/" component={Home} />
-            </Switch> */}
+            </Switch>
         </BrowserRouter>
     );
 };

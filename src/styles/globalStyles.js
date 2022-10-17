@@ -4,6 +4,12 @@ export const GlobalStyle = createGlobalStyle`
   body {
     padding: 0;
     margin: 0;
+    background-image: url("../assets/home/background-home-desktop.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     
   }
 `;
@@ -13,6 +19,3 @@ export const colors = {
     lightBlue: "#D0D6F9",
     white: "#FFFFFF",
 };
-
-/* font-family: 'Barlow Condensed', sans-serif;
-font-family: 'Bellefair', serif; */
